@@ -43,4 +43,4 @@ class Users:
 
         await redis.delete(f"{self.id}:token_ca")
         await redis.delete(f"{self.id}:buy_usd_supply")
-        await redis.delete(f"{self.id}:buy_token_supply")2
+        await redis.delete(f"{self.id}:buy_token_supply")
