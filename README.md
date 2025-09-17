@@ -17,5 +17,4 @@ pip install -r requirements.txt
     - `blockchain`: the blockchain on which the bot will work
 4. Launch the main.py:
 ```python
-python main.py
-```
+python -m src/main```
